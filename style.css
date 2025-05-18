@@ -1,0 +1,186 @@
+/* Reset default margin and padding, set box-sizing and font */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+/* Main container styling */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 50px auto;
+  width: 70%;
+  border: 4px solid;
+  border-color: #0d00ff #ee00ff #ff00a2 #ffff00;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  min-height: 530px;
+  overflow: auto; /* Enable scroll if content overflows */
+}
+/* Input text box positioning */
+.txt-box {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  right: 50px;
+  bottom: auto;
+}
+/* Main input field styling */
+.main-text {
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  font-style: italic;
+  font-weight: 600;
+}
+/* Button container styling */
+.btns-box {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  right: 50px;
+  bottom: auto;
+}
+/* Button styles for each button */
+.btn1 {
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 600;
+  margin: 4px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #0000ff;
+  color: white;
+}
+.btn1:hover {
+  background-color: #0d0de2;
+}
+.btn2 {
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 600;
+  margin: 4px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e102f1;
+  color: white;
+}
+.btn2:hover {
+  background-color: #c803d6;
+}
+.btn3 {
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 600;
+  margin: 4px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: orangered;
+  color: white;
+}
+.btn3:hover {
+  background-color: rgb(225, 62, 3);
+}
+.btn4 {
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 600;
+  margin: 4px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(4, 226, 19);
+  color: white;
+}
+.btn4:hover {
+  background-color: rgb(5, 197, 18);
+}
+.btn5 {
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 600;
+  margin: 4px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(22, 195, 178);
+  color: white;
+}
+.btn5:hover {
+  background-color: rgb(3, 185, 167);
+}
+/* Output texts container styling */
+.texts-box {
+  position: absolute;
+  top: 155px;
+  left: 50px;
+  right: 50px;
+  height: auto;
+}
+/* Output text styles for each result type */
+.U-txt {
+  min-height: 25px;
+  border: 5px solid;
+  border-color: #ffffff #ffffff #ffffff #0000ff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-left: 8px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+.L-txt {
+  min-height: 25px;
+  overflow-wrap: anywhere;
+  border: 5px solid;
+  border-color: #ffffff #ffffff #ffffff #0000ff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-left: 8px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+.C-txt {
+  min-height: 25px;
+  border: 5px solid;
+  border-color: #ffffff #ffffff #ffffff #0000ff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-left: 8px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+.R-txt {
+  min-height: 25px;
+  border: 5px solid;
+  border-color: #ffffff #ffffff #ffffff #0000ff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-left: 8px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+.TW-txt {
+  min-height: 25px;
+  border: 5px solid;
+  border-color: #ffffff #ffffff #ffffff #0000ff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-left: 8px;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
